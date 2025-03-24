@@ -1,0 +1,23 @@
+[
+    {
+        "title": "karachi-e-dastan",
+        "author": "Habib",
+        "publication_year": "2004",
+        "gener": "horror",
+        "is_book_read": true
+    },
+    {
+        "title": "ahmed",
+        "author": "Habib",
+        "publication_year": "2004",
+        "gener": "horror",
+        "is_book_read": true
+    },
+    {
+        "title": "faraz",
+        "author": "Habib",
+        "publication_year": "2004",
+        "gener": "horror",
+        "is_book_read": false
+    }
+]
