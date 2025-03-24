@@ -132,6 +132,12 @@ class BookCollection:
         print(f"Percentage of read books: {percentage:.2f}%")
  
 
+    def quit(self):
+        """Save books to file and exit the program"""
+        self.save_to_file()
+        print("Goodbye!")
+        exit
+
     def start(self):
         
         while True:
@@ -144,6 +150,7 @@ class BookCollection:
             print("5. List of All books!")
             print("6.Edit book title!")
             print("7.percentage of read books!")
+            print("8.Exit!!")
             user_choise = input("please choose an option from 1-4 : ")
 
             if user_choise == "1":
@@ -161,6 +168,8 @@ class BookCollection:
                 self.edit_book_title()
             elif user_choise == "7":
                 self.percentage_of_read_books()
+            elif user_choise == "8":
+                self.quit()
             else:
                 print("book not found!!")
             break
